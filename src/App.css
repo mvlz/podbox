@@ -27,7 +27,40 @@
 .App-link {
   color: #61dafb;
 }
-
+.embla {
+  overflow: hidden;
+  position: relative;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  height: 500px;
+}
+.embla__button__container {
+  position: absolute;
+  left: 13%;
+  top: 420px;
+  display: flex;
+  gap: 8px;
+  margin: 8px;
+}
+.embla__button {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 55%;
+  width: 40px;
+  height: 40px;
+  display: inline-grid;
+  place-content: center;
+  cursor: pointer;
+}
+.embla__slide__inner,
+.embla__slide__img {
+  height: 100%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

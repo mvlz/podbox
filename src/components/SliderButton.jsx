@@ -1,4 +1,4 @@
-import nexIcon from "./assets/prev.svg"
+import nexIcon from "../assets/next.svg"
 
 export const PrevButton = ({ enabled, onClick ,style}) => (
     <button  onClick={onClick} disabled={!enabled} className="embla__button">

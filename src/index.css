@@ -11,36 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.embla {
-  overflow: hidden;
-  position: relative;
-}
-.embla__container {
-  display: flex;
-}
-.embla__slide {
-  flex: 0 0 100%;
-  min-width: 0;
-  height: 500px;
-}
-.embla__button__container {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  display: flex;
-  gap: 8px;
-  margin: 8px;
-}
-.embla__button {
-  background-color: white;
-  border: 1px solid lightgray;
-  border-radius: 55%;
-  width: 40px;
-  height: 40px;
-  display: inline-grid;
-  place-content: center;
-}
-.embla__slide__inner,
-.embla__slide__img {
-  height: 100%;
-}

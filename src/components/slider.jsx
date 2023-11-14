@@ -1,6 +1,6 @@
 import React from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
-import { PrevButton, NextButton } from '../SliderButton'
+import { PrevButton, NextButton } from './SliderButton'
 
 export const EmblaCarousel = ({sliders }) => {
   const [emblaRef,embla] = useEmblaCarousel({ loop: true })
